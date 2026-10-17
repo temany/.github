@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+
+    <radialGradient id="blueGlow" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#0066FF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0066FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="amberGlow" cx="85%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#FF7A00" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Brand Gradients -->
+    <linearGradient id="brandBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="100%" stop-color="#00C2FF" />
+    </linearGradient>
+
+    <linearGradient id="brandAmberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#FFB800" />
+    </linearGradient>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-opacity="0.75" />
+      <circle cx="40" cy="40" r="1.5" fill="#CBD5E1" />
+    </pattern>
+
+    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="12" fill="url(#bgGrad)" />
+  <rect width="1200" height="320" rx="12" fill="url(#blueGlow)" />
+  <rect width="1200" height="320" rx="12" fill="url(#amberGlow)" />
+  <rect width="1200" height="320" rx="12" fill="url(#techGrid)" />
+  <rect width="1198" height="318" x="1" y="1" rx="11" fill="none" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <!-- Architectural Frame Corner Accents -->
+  <path d="M 16 36 L 16 16 L 36 16" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 1184 36 L 1184 16 L 1164 16" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 16 284 L 16 304 L 36 304" fill="none" stroke="#0066FF" stroke-width="2.5" />
+  <path d="M 1184 284 L 1184 304 L 1164 304" fill="none" stroke="#0066FF" stroke-width="2.5" />
+
+  <!-- Left: Official Temany Stylized Brand Emblem -->
+  <g transform="translate(64, 52)" filter="url(#subtleDrop)">
+    <!-- Container Badge -->
+    <rect width="116" height="116" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    
+    <!-- Stylized dynamic 'T' figure & emblem -->
+    <!-- Top Amber Head/Dot -->
+    <circle cx="58" cy="34" r="12" fill="url(#brandAmberGrad)" />
+    
+    <!-- Dynamic Fluid T Arms & Torso -->
+    <path d="M 28 54 C 38 48 50 48 58 53 C 66 48 78 48 88 54 C 84 62 76 64 68 64 C 65 64 63 67 63 72 L 63 94 C 63 98 53 98 53 94 L 53 72 C 53 67 51 64 48 64 C 40 64 32 62 28 54 Z" fill="url(#brandBlueGrad)" />
+    
+    <!-- Base Movement Curve Accent -->
+    <path d="M 38 88 C 48 83 68 83 78 88" fill="none" stroke="#00C2FF" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography & Headers -->
+  <g transform="translate(208, 62)">
+    <!-- Top Meta Row -->
+    <g transform="translate(0, 0)">
+      <rect width="124" height="22" rx="11" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1" />
+      <circle cx="10" cy="11" r="3.5" fill="#0066FF" />
+      <text x="20" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0066FF" letter-spacing="0.8px">temany.asia</text>
+      
+      <rect x="134" y="0" width="146" height="22" rx="11" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1" />
+      <circle cx="144" cy="11" r="3.5" fill="#FF7A00" />
+      <text x="154" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" letter-spacing="0.8px">ENTERPRISE CLOUD</text>
+
+      <rect x="290" y="0" width="120" height="22" rx="11" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+      <text x="302" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#475569" letter-spacing="0.5px">V2.4 PRODUCTION</text>
+    </g>
+
+    <!-- Brand Logotype -->
+    <text x="0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="44" font-weight="900" fill="#0F172A" letter-spacing="3.5px">TEMANY</text>
+    
+    <!-- Tagline -->
+    <text x="0" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="18" font-weight="600" fill="#334155" letter-spacing="0.3px">Every Place, a Possibility.</text>
+    
+    <!-- Technical Descriptor -->
+    <text x="0" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="13" font-weight="500" fill="#64748B" letter-spacing="0.2px">Distributed Venue Booking, Real-Time POS, &amp; Social Sports Matchmaking Infrastructure</text>
+  </g>
+
+  <!-- Right Decorative System Topology Diagram -->
+  <g transform="translate(860, 48)">
+    <rect width="276" height="136" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" filter="url(#subtleDrop)" />
+    
+    <!-- Mini Header -->
+    <rect width="276" height="28" rx="10" fill="#F8FAFC" />
+    <path d="M 0 28 L 276 28" stroke="#E2E8F0" stroke-width="1" />
+    <circle cx="14" cy="14" r="3.5" fill="#EF4444" />
+    <circle cx="26" cy="14" r="3.5" fill="#F59E0B" />
+    <circle cx="38" cy="14" r="3.5" fill="#10B981" />
+    <text x="54" y="18" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#64748B">topology :: multi-domain matrix</text>
+
+    <!-- Route Nodes -->
+    <g transform="translate(14, 40)">
+      <text x="0" y="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#0066FF">customer  -&gt; temany.asia (:3000)</text>
+      <text x="0" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#0066FF">partner   -&gt; partner.temany.asia (:3001)</text>
+      <text x="0" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#0066FF">saas/pos  -&gt; dashboard.temany.asia (:3002)</text>
+      <text x="0" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#0066FF">admin     -&gt; admin.temany.asia (:3003)</text>
+      <text x="0" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="600" fill="#0066FF">api       -&gt; api.temany.asia (:4000)</text>
+    </g>
+  </g>
+
+  <!-- Bottom Divider Line -->
+  <line x1="64" y1="220" x2="1136" y2="220" stroke="#E2E8F0" stroke-width="1" />
+
+  <!-- Bottom Badges / Architectural Capabilities -->
+  <g transform="translate(64, 240)">
+    <!-- Chip 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="134" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">TypeScript 5</text>
+    </g>
+
+    <!-- Chip 2 -->
+    <g transform="translate(144, 0)">
+      <rect width="130" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Next.js 16 App</text>
+    </g>
+
+    <!-- Chip 3 -->
+    <g transform="translate(284, 0)">
+      <rect width="144" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Express 4 + Zod</text>
+    </g>
+
+    <!-- Chip 4 -->
+    <g transform="translate(438, 0)">
+      <rect width="168" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">PostgreSQL btree_gist</text>
+    </g>
+
+    <!-- Chip 5 -->
+    <g transform="translate(616, 0)">
+      <rect width="144" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Docker Compose</text>
+    </g>
+
+    <!-- Chip 6 -->
+    <g transform="translate(770, 0)">
+      <rect width="144" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0F172A">Sitelinks JSON-LD</text>
+    </g>
+
+    <!-- Chip 7 -->
+    <g transform="translate(924, 0)">
+      <rect width="148" height="34" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="14" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#0066FF">Strict Light Mode</text>
+    </g>
+  </g>
+</svg>
